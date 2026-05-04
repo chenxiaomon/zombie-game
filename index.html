@@ -639,7 +639,7 @@ const drawStar=(x,y,size,fillCol,strokeCol)=>{
   c.restore();
 };
 
-drawStar(0,0,11*s,starCol,outlineCol);
+drawStar(0,0,15*s,starCol,outlineCol);
 
 // Eyes - two big circles
 c.fillStyle=fl?'#000':'#333';
@@ -709,7 +709,7 @@ const drawSpongeBob=(x,y,s)=>{
   c.beginPath();c.ellipse(12,2,4.5,3.5,0,0,Math.PI*2);c.fill();
   c.restore();
 };
-drawSpongeBob(0,-28,0.6);
+drawSpongeBob(0,-38,1.0);
 
 // Gun arm
 c.save();c.translate(0,-26);c.rotate(P.ang);
